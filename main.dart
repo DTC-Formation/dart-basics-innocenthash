@@ -1,5 +1,5 @@
 void main() {
-  int facto = factoriel(2);
+  int facto = factoriel(4);
   print(facto);
 
   // int puiss = puissance(3, 2);
@@ -9,15 +9,15 @@ void main() {
   cherche_consonne_voyelle("a");
 }
 
-int factoriel(int n) {
+ factoriel(int n) {
   int m = 1;
-  for (int s = n; s > 1; s--) {
+  for ( n; n > 1; n--) {
     m = m * n;
   }
   return m;
 }
 
-puissance(int x, int p) {
+int puissance(int x, int p) {
   int m = 1;
   for (int n = 0; p > n; n++) {
     m = m * x;
@@ -31,7 +31,7 @@ cherche_consonne_voyelle(String x) {
   for (var voyelle in voyelles) {
     // print('$voyelle');
     if (voyelle == x) {
-      print('le mot que vous avez tapé est voyelle $voyelle');
+      print('les mot que vous avez tapé est voyelle $voyelle');
     } else {
       for (var consonne in consonnes) {
         if (consonne == x) {
